@@ -96,7 +96,7 @@ p,b{
     align-items: center;
 }.box-main h1{
     font-size: 136px;
-    margin-right: 190px;
+    margin-right: 8px;
     font-weight: lighter;
     color:#5B9289 ;
     
@@ -105,7 +105,7 @@ p,b{
     font-weight: lighter;
     position: absolute;
     margin-top: 108px;
-    margin-left: 176px;
+    margin-left: 355px;
     font-size: 45px;
 }
 
@@ -114,7 +114,7 @@ p,b{
     padding: 22px;
     position: absolute;
     margin-top: 270px;
-    margin-right: 119px;
+    
     border-radius: 50px;
     border-style: none;
     font-size: 21px;
