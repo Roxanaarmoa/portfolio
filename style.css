@@ -6,10 +6,17 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
-ul, ol, li{
+nav{
     list-style-type: none;
+    position: absolute;
+    width: 100%;
+    
 }
-
+html{
+    scroll-behavior: smooth;
+}html{
+    scrollbar-width: none;
+}
 
 /* Fuentes */
 @font-face {
@@ -43,11 +50,20 @@ p,b{
 
 /* nav */
 
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
 .nav-box{
+    
+    list-style: none;
+    background-color: white;
     display: flex;
     justify-content: center;
     gap: 100px;
     padding: 15px;
+    
 }.flower-orange{
     width: 4%;
     position: absolute;
@@ -85,7 +101,8 @@ p,b{
     background-image: url('img/bg-principal.jpg');
     background-size: cover;
     background-attachment: fixed;
-    padding: 60px;
+    padding: 70px;
+    
 }
 
 
@@ -145,8 +162,6 @@ p,b{
 }
 
 
-
-
 /* ACERCA DE MÍ */
 
 .about-content{
@@ -184,7 +199,8 @@ p,b{
     text-align: center;
     width: 1006px;
 }.name{
-    color: #cf9624;
+    color: #d69615c5;
+    text-decoration: underline;
 }.introduction{
     font-size: 29px;
     color: #ffff;
@@ -340,7 +356,6 @@ p,b{
 /* CONTACTO */
 
 .contact-content{
-    padding-bottom: 200px;
     background-color: white;
 }
 
@@ -479,18 +494,18 @@ label p{
         font-size: 65px;
         position: absolute;
         left: 22px;
-        margin-top: 273px;
+        margin-top: 325px;
     }.box-main h3{
         width: 100%;
         font-weight: lighter;
         position: absolute;
         right:-142px;
-        margin-top: 318px;
+        margin-top: 377px;
         font-size: 27px;
     }.box-main button{
         padding: 9px;
-        margin-top: 403px;
-        margin-right: 2px;
+        margin-top: 455px;
+        margin-right: 10px;
         border-radius: 50px;
         font-size: 16px;
     }
@@ -514,7 +529,7 @@ label p{
         width: 100%;
         font-size: 48px;
         margin-left: 178px;
-        margin-top: -790px;
+        margin-top: -974px;
     }.underline{
         width: 349px;
         margin-top: -227px;
@@ -524,29 +539,31 @@ label p{
     .flower-marco-up{
         width: 12%;
         right: -30px;
-        margin-top: 415px;
+        margin-top: 372px;
     }.flower-marco{
         width: 12%;
-        right: 325px;
-        margin-top: 14px;
+        right: 356px;
+        margin-top: 3px;
     }
 
 
     .box-introduction{
         width: 1006px;
-        margin-top: -745px;
+        margin-top: -896px;
     }.introduction{
-        width: 40%;
-        font-size: 21px;
-        margin-left: 443px;
-        padding: 29px;
+        width: 400px;
+        font-size: 20px;
+        margin-left: 454px;
+        padding: 21px;
+    }.marco{
+        width: 0%;
     }
 
     .experience{
         font-size: 54px;
-        margin-top: 7px;
+        margin-top: 61px;
         margin-left: 271px;
-        margin-bottom: 73px;
+        margin-bottom: 72px;
     }.underline-exp{
         width: 350px;
         margin-top: -200px;
@@ -555,8 +572,8 @@ label p{
     .icons{
         width: 500px;
         padding: 32px;
-        margin-left: 341px;
-        margin-top: -76px;
+        margin-left: 363px;
+        margin-top: -50px;
     }.icons img{
         width: 73px;
     }
