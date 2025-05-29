@@ -17,3 +17,14 @@ function revealOnScroll() {
 window.addEventListener('scroll', revealOnScroll);
 
 revealOnScroll();
+
+
+//view de cards
+$(document).ready(function() {
+	
+	$('.cards-container').delay(1800).queue(function(next) {
+		$(this).removeClass('hover');
+		$('a.hover').removeClass('hover');
+		next();
+	});
+});
