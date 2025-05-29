@@ -557,9 +557,8 @@ label p{
 
 
     .imagen-responsive {
-        height: 82vh;
+        height: 100vh;
         position: relative;
-        top: 167px;
         display: flex;
         
     }.box-main h1 {
