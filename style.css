@@ -552,11 +552,11 @@ label p{
 
 
     .imagen-responsive {
-        background-attachment: fixed;
-        background-size: cover;
-        height: 100vh;
-        display: block;
-        margin: 0 auto;
+        height: 82vh;
+        position: relative;
+        top: 150px;
+        display: flex;
+        
     }.box-main h1 {
         width: 100%;
         font-size: 65px;
