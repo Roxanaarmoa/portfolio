@@ -529,7 +529,12 @@ label p{
 
 
 /* RESPONSIVE */
-@media screen and (max-width:420px){
+@media screen and (max-width:390px){
+    body{
+        margin: 0;
+        display: block;
+
+    }
     /* nav */
     .nav-box{
         padding: 16px;
