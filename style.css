@@ -529,7 +529,7 @@ label p{
 
 
 /* RESPONSIVE */
-@media screen and (max-width:390px){
+@media screen and (max-width:430px){
     body{
         margin: 0;
         display: block;
@@ -559,7 +559,7 @@ label p{
     .imagen-responsive {
         height: 82vh;
         position: relative;
-        top: 150px;
+        top: 167px;
         display: flex;
         
     }.box-main h1 {
