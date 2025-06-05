@@ -565,12 +565,12 @@ label p{
     .start-content{
         height:100vh;
         padding: 0px;
-        width: 390px;
+        width: 400px;
     }
 
 
     .imagen-responsive {
-        width: 390px;
+        width: 400px;
         height: 100vh;
         display: flex;
         
