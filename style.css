@@ -615,12 +615,45 @@ label p{
         font-size: 48px;
         margin-left: 178px;
         margin-top: -974px;
+    }
+    
+    /* proyectos*/
+    .proyects-content{
+        padding: 0;
+        height: 1000px;
+    }
+    .titles{
+        width: 100%;
+        margin-inline: 0px;
+    }.titles h1{
+        font-size: 65px;
     }.underline{
         width: 349px;
         margin-top: -227px;
         margin-left: 114px;
     }
-    
+    /* cards*/
+    .cards-container{
+        left: 50px;
+    }
+    .card:hover .card_info {
+        z-index: 100;
+        left: 0px;
+        transform: scale(1.1);
+        transition: opacity 0.5s ease, transform 0.4s ease;
+    }
+
+    /* flower*/
+    .white-flower-down{
+        opacity:hidden;
+        width: 143px;
+        position: relative;
+        left:200px;
+        bottom:-443px;
+    }
+    .hidden{
+        opacity: initial;
+    }
     .flower-marco-up{
         width: 12%;
         right: -30px;
