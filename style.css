@@ -96,6 +96,8 @@ header{
 }
 
 
+
+
 /* start content */
 .start-content{
     background-image: url('img/bg-principal.jpg');
@@ -104,8 +106,6 @@ header{
     padding: 70px;
     
 }
-
-
 
 .box-main{
     display: flex;
@@ -164,6 +164,8 @@ header{
 }
 
 
+
+
 /* ACERCA DE MÍ */
 
 .about-content{
@@ -208,6 +210,7 @@ header{
     color: #ffff;
     padding: 25px;
 }
+
 
 /* experiencia */
 .experience{
@@ -263,6 +266,7 @@ header{
     background-attachment: fixed;
     background-size: cover;
     padding: 120px;
+    height: 1000px;
 }
 
 /* flores con rotacion */
@@ -270,13 +274,14 @@ header{
     width: 18%;
     position: absolute;
     margin-top: 51px;
-    right: -110px;
+    right: -210px;
+    bottom: -1100px;
     animation: rotate 10s linear infinite;
 }.white-flower-down{
     width: 18%;
     position: absolute;
-    left: 96px;
-    margin-top: -13px;
+    left: 88px;
+    bottom: -400px;
     animation: rotate 10s linear infinite;
 }
 @keyframes rotate {
@@ -317,7 +322,11 @@ header{
     height: 400px;
     
 }
-
+.cards-container{
+    position: relative;
+    top: 314px;
+    left:200px;
+}
 .card .card_landing {
     
     position: relative;
@@ -330,6 +339,9 @@ header{
     z-index: 100;
 }
 
+.item p{
+    color:#cf9624;
+}
 .card .card_landing h6 {
     position: absolute;
     bottom: 10px;
@@ -557,6 +569,7 @@ label p{
 
 
     .imagen-responsive {
+        width: 430px;
         height: 100vh;
         position: relative;
         display: flex;
