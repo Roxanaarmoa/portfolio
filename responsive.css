@@ -86,7 +86,14 @@
         margin-inline: 0px;
     }.titles h1{
         font-size: 65px;
-    }.underline{
+    }.titles p {
+    margin-left: 160px;
+    font-size: 31px;
+    color: #cf9624;
+    position: relative;
+    right: 91px;
+}
+.underline{
         width: 349px;
         margin-top: -227px;
         margin-left: 114px;
