@@ -111,17 +111,15 @@
 
     /* flower*/
     .white-flower-down{
-        opacity:hidden;
+        
         width: 143px;
         position: relative;
         left:200px;
         bottom:-443px;
     }.white-flower-top{
-        opacity: hidden;
+        width: 0px;
     }
-    .hidden{
-        opacity: initial;
-    }
+    
     .flower-marco-up{
         width: 12%;
         right: -30px;
