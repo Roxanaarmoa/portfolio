@@ -18,7 +18,7 @@ form.addEventListener('submit', async (e) => {
 
     try {
     //fetch envia o recibe datos, en este caso esta enviado al backendatos del email
-        const response = await fetch("https://portfolio-backend-17bg.onrender.com", {
+        const response = await fetch("https://portfolio-backend-17bg.onrender.com/send", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json", // Indicamos que enviamos JSON
