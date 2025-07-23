@@ -146,20 +146,17 @@
             </article>
 
 
-            <!-- form -->
-            <form class="form" method="post">
+            <!-- form c/ Nodemailer-->
+            <form class="form" id="contactForm">
                 <label  for="nombre"><p>NOMBRE</p></label>
-                <input class="bar" type="text">
-
-                <label  for="correo"><p>CORREO</p></label>
-                <input class="bar" type="email">
+                <input class="bar" type="text" id="name" name="name" required>
                 
                 <label  for="asunto"><p>ASUNTO</p></label>
-                <input class="bar" type="text">
-
-                <label class="name" for="mensaje"><p>MENSAJE</p></label>
-                <textarea class="bar-long" name="mensaje" id="" cols="50" rows="8"></textarea>
-
+                <input class="bar" type="text" id="subject" name="subject" required>
+                
+                <label class="mensaje" for="mensaje"><p>MENSAJE</p></label>
+                <textarea class="bar-long" name="message" id="message" cols="50" rows="8" required></textarea>
+                
                 <button type="submit"><p>Enviar</p></button>
             </form>
         </section>
