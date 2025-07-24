@@ -16,7 +16,7 @@
     }.flower-orange, .flower-orange-left{
         width: 58px;
         margin-top: -7px;
-        margin-inline: -15px;
+        margin-inline: 9px;
     }
 
     /* section 1 */
@@ -31,19 +31,18 @@
         width: 415px;
         height: 100vh;
         display: flex;
-        
     }.box-main h1 {
-        width: 100%;
+        width: 350px;
         font-size: 65px;
         position: absolute;
-        left: 22px;
+        left: 25px;
         margin-top: 325px;
     }.box-main h3{
-        width: 100%;
+        width:240px;
         font-weight: lighter;
         position: absolute;
-        right:-142px;
-        margin-top: 377px;
+        right:68px;
+        margin-top: 379px;
         font-size: 27px;
     }.box-main button{
         padding: 9px;
@@ -99,9 +98,7 @@
         margin-left: 114px;
     }
     /* cards*/
-    .cards-container{
-        left: 50px;
-    }
+    
     .card:hover .card_info {
         z-index: 100;
         left: 0px;
@@ -173,8 +170,8 @@
         right: 50px;
     }.flowers-white{
         position: absolute;
-        width: 200px;
-        right: -54px;
+        width: 126px;
+        right: 0px;
     }
     .title-contact {
         display: flex;
