@@ -210,6 +210,7 @@
 }
 .form{
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: column;
     position: relative;
     right: 665px;
