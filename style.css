@@ -333,6 +333,7 @@ header{
     margin-top: 50px;
 }
 .box {
+    width: 400px;
 	border-radius: 10px;
 	position: relative;
 	overflow: hidden;

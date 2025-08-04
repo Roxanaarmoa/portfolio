@@ -13,10 +13,15 @@ form.addEventListener('submit', async (e) => {
 
     }
     
-    
-    
-
+    //sweetalert enviando..
     try {
+        Swal.fire({
+            text: 'Enviando...',
+            allowOutsideClick: false,
+            didOpen: () => {
+                Swal.showLoading();
+            }
+});
     //fetch envia o recibe datos, en este caso esta enviado al backendatos del email
         const response = await fetch("https://portfolio-backend-17bg.onrender.com/send", {
             method: "POST",
@@ -27,13 +32,29 @@ form.addEventListener('submit', async (e) => {
         });
 
     if (response.ok) {
-        alert("Mensaje enviado correctamente!");
+        // Alerta con SweetAlert si fue exitoso
+
+        Swal.fire({
+        text: 'Enviado correctamente',
+        icon: 'success',
+        confirmButtonText: 'Cerrar'
+    });
       form.reset(); // limpia el formulario
     } else {
-        alert("Hubo un error al enviar el mensaje.");
+        Swal.fire({
+        title: 'Oops...',
+        text: 'Hubo un error al enviar el mensaje.',
+        icon: 'error',
+        confirmButtonText: 'Intentar de nuevo'
+    });
     }
     } catch (error) {
-    alert("No se pudo conectar con el servidor.");
+    Swal.fire({
+        title: 'Error de conexión',
+        text: 'No se pudo conectar con el servidor.',
+        icon: 'error',
+        confirmButtonText: 'Cerrar'
+    });
     console.error(error);
 }
 });
